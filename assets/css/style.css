@@ -1,0 +1,19 @@
+h4 {
+
+    padding: 10px;
+    color: cornflowerblue;
+}
+
+.schedule-table {
+    border: 2px solid gray;
+}
+
+.input-table {
+    border: 2px solid gray;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#submit-btn {
+    margin-bottom: 10px;
+}
