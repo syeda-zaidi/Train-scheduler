@@ -19,6 +19,8 @@
     <!-- links to firebase -->
     <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-database.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script> -->
 
     <!-- link to js file -->
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
@@ -29,7 +31,7 @@
 
     <div class="jumbotron text-center">
         <h1>Train Scheduler</h1>
-        <p class="lead"> Travelling is better with company </p>
+        <p class="lead"> Travelling gets better with company </p>
     </div>
 
     <div class="container schedule-table">
@@ -39,25 +41,17 @@
                 <tr>
                     <th scope="col">Train Name</th>
                     <th scope="col">Destination</th>
-                    <th scope="col">Freaquency (min) </th>
+                    <th scope="col">Frequency (min) </th>
                     <th scope="col">Next Arrival</th>
                     <th scope="col">Minutes Away</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="train-table">
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
             </tbody>
@@ -81,7 +75,7 @@
                 <input type="text" class="form-control" id="firsttrain-input">
             </div>
             <div class="form-group">
-                <label for="frequency-input">Destination</label>
+                <label for="frequency-input">Frequency</label>
                 <input type="text" class="form-control" id="frequency-input">
             </div>
         </form>
